@@ -22,6 +22,7 @@ class HelperGames{
             return context.resources.displayMetrics.density
         }
 
+        @Suppress("DEPRECATION")
         fun isInternet(context: Context): Boolean {
             val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
             val activeNetwork = connectivityManager.activeNetworkInfo

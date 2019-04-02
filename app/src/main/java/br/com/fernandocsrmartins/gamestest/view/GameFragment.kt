@@ -1,6 +1,5 @@
 package br.com.fernandocsrmartins.gamestest.view
 
-import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatDialogFragment
 import android.view.LayoutInflater
@@ -20,7 +19,7 @@ class GameFragment : AppCompatDialogFragment(){
         @JvmField
         val GAME_TAG: String = "game_fragment"
 
-        fun newInstance(gameContents: GameContents, context: Context): GameFragment {
+        fun newInstance(gameContents: GameContents): GameFragment {
             val fragment = GameFragment()
             fragment.gameContents = gameContents
             return fragment
@@ -70,5 +69,4 @@ class GameFragment : AppCompatDialogFragment(){
     private fun getGameTitle() {
         title.text = gameContents.game?.name
     }
-
 }

@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity(), SwipeRefreshLayout.OnRefreshListener {
     }
 
     fun getGameDetails(gameContents: GameContents) {
-        val gameFragment = GameFragment.newInstance(gameContents, this)
+        val gameFragment = GameFragment.newInstance(gameContents)
         gameFragment.show(supportFragmentManager, GameFragment.GAME_TAG)
     }
 
