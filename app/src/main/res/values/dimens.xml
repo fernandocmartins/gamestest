@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">180dp</dimen>
+    <dimen name="height_toolbar">80dp</dimen>
+    <dimen name="elevation_10dp">10dp</dimen>
+    <dimen name="min_width_500dp">500dp</dimen>
+    <dimen name="margin_top_10dp">10dp</dimen>
+    <dimen name="height_img_big">300dp</dimen>
+    <dimen name="font_22sp">22sp</dimen>
+    <dimen name="margin_top_5dp">5dp</dimen>
+    <dimen name="margin_start_16dp">16dp</dimen>
+    <dimen name="img_width">64dp</dimen>
+    <dimen name="img_height">38dp</dimen>
+    <dimen name="margin_top_neg">-25dp</dimen>
+    <dimen name="game_height">268dp</dimen>
+    <dimen name="relative_margin_4dp">4dp</dimen>
+</resources>

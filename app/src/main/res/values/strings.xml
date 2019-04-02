@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Twitch Ranking Games</string>
+    <string name="channels">Canais criados:</string>
+    <string name="viewers">Espectadores ativos:</string>
+    <string name="error">Houve um problema inesperado, tente novamente.</string>
+    <string name="internet_fail">Falha na rede, navegando offline.</string>
+    <string name="content_img">imagem</string>
+</resources>
